@@ -190,15 +190,24 @@ img{
   right: 0;
   opacity: 0;
   transition: 1s ease;
+  border-radius: 30px;
   background-color: #f7b617;
 
 }
 .grid:hover .center{
-  opacity: 0.6;
+  opacity: 0.8;
+}
+
+.grid:hover .img-box{
+
+  transform: scale(1.02);
+  width: 250px;
+  height: 250px;
 }
 .nameCoder{
   color: white;
-  font-size: 20px;
+  font-family: 'Revalia', cursive;
+  font-size: 25px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -206,6 +215,8 @@ img{
   -ms-transform: translate(-50%, -50%);
 }
 figure{
+  margin:0;
+  border-radius: 30px;
 }
 footer{
     background-color: #5d5c5c;
@@ -213,13 +224,19 @@ footer{
     position: inherit;
     text-align: center;
     padding: 30px;
+    font-family: 'Pacifico', cursive;
 }
 .box{
   display: -webkit-inline-box;
+
 }
 #promo{
 
 }
 #seccionimage{
   padding-top: 100px;
+}
+ul{
+      padding-left: 0px;
+      text-align: center;
 }

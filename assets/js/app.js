@@ -23,8 +23,9 @@ window.addEventListener("scroll", function(){
    lastScrollTop = currentScroll;
 }, false);
 
-var list6Lima = ["Marilu Llamocca","Ruth Cardenas","Maria Vilchez","Glisse Jorge","Ana Durand","Ruth Salvador","Leslie Avendaño","Flor Tello","Miriam Castañeda","Fiorella Arotinco","Annia Flores","Leidy Maldonado","Rosario Felix","Liliana Peña","Miriam Mendoza","Flor Condori","Naomi Villanueva" ,"Luz Gutierrez","Karin Alejo","Ingrid More","Yessenia Huamán","Fiorella Cisneros","Betsi Loayza","Mariel García","Ruth Silva","Erika Vidal","Angie Condor","Stephanie Hiyagon","Grecia Rayme","Cindy Mendoza","Mitchell Rodríguez","Maria Cutipa","Geraldine Chauca","Mary Castillo","Nadia Cuadros","Elizabeth Condori","Neiza Nuñez","Arantza Burga","Schelsen Majuan","Sandra Solorzano","Yelitza Choque","Katherine Ortega","Maricarmen Rojas","Aslheys Cabana","Nathaly Pacheco","Janine Vega" ,"Wendy Reyes" ,"Milagros Gonzales" ,"Jenny Velasquez" ,"Dana Franco" ,"Nakarid Jave","Ayda Sulca","Magali Zambrano","Flor Retamozo"];
-
+var list6Lima = ["Fiorella Quispe","Lourdes Vilchez","Rossmery Maldonado","Yessenia Huamán","Miriam Mendoza","Elizabeth Condori","Arantza Burga","Grecia Rayme","Janine Vega","Rosario Felix","Daguiana Revoredo","Jenny Velasquez","Nadia Cuadros","Michell More","Marilu Llamocca","Mariel Garcia","Fiorella Cisneros","Geraldine Chauca","Yellitza Rivera","Stephanie Hiyagon","Emma Tapia","Danna Franco","Flor Retamozo","Nathaly Pacheco",
+"Ericka Vidal","Katherine Ortega","Brilly Majuan","Flor Tello","Leslie Avendaño","Cindy Mendoza","Annia Flores","Betsi Loayza","Aida Sulca","Milagros Gutierrez","Nakarid Jave","Angie Cóndor","Maricarmen Rojas","Ariana Cabana","Flor Condori","Mitch Rodríguez","Naomi Villanueva","Mari Castillo","Miriam Peralta","Karin Alejo","Liliana Peña","Ruth Salvador","Maribel Sevilla","Wendy Reyes","Cinthia",
+"Maria Grecia Cutipa","Ana Durand","Glisse Jorge","Neiza Nuñez","Sandra Solorzano"];
 function divImage(listaCoders,nameFile,promo){
       var contForDiv=document.getElementById(promo);
       var listaCoder=document.createElement("ul");
@@ -56,7 +57,6 @@ function divImage(listaCoders,nameFile,promo){
           var nameCoder=document.createElement("span");
           nameCoder.classList.add("nameCoder");
           nameCoder.innerHTML=name;
-
           figcap.appendChild(nameCoder);
           figForCoder.appendChild(figcap);
           divForCoder.appendChild(figForCoder);
