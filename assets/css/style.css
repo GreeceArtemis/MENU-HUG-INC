@@ -198,11 +198,10 @@ img{
   opacity: 0.8;
 }
 
-.grid:hover .img-box{
+.grid:hover img{
 
-  transform: scale(1.02);
-  width: 250px;
-  height: 250px;
+  transform: scale(1.03);
+  border: 2px solid #ddd;
 }
 .nameCoder{
   color: white;
